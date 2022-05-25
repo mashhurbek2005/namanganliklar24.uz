@@ -160,8 +160,6 @@
     margin-bottom: 50px;
 }
 
-/* ............................................................................................................................. */
-
 .hero-list{
   /* width: 1200px; */
   margin-top: 0;
@@ -231,111 +229,6 @@
   color: #5E5F61;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .hero-list{
-    width: 1200px;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.hero-item{
-    width: 393px;
-    background-color: #F6F6F6;
-    border-radius: 10px;
-}
-
-.hero-item-texts{
-    width: 354px;
-}
-
-.hero-title{
-  width: 354px;
-}
-
-.error-title{
-  width: 338px;
-}
-
-.item-box{
-    padding-right: 17px;
-    padding-bottom: 15px;
-    padding-left: 17px;
-}
-
-.item-top{
-    margin-bottom: 10px;
-}
-
-.hero-link{
-  text-decoration: none;
-}
-
-.hero-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    color: #000000;
-    text-decoration: none;
-}
-
-.hero-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #4A4B4C;
-}
-
-.hero-img{
-    width: 360px;
-    height: 165px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.hero-logo-box{
-    display: flex;
-    align-items: center;
-}
-
-.hero-logo{
-    margin-right: 10px;
-}
-  
-.hero-logo-desc{
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #5E5F61;
-} */
-/* .................................................................................................................................. */
-
-/* last-news aside :start */
-
 .last-news-box{
     width: 1050px;
     margin: 60px auto;
@@ -369,7 +262,7 @@
     text-decoration: none;
 }
 
-/* aside end */
+/* worl news begin */
 
 .world{
   padding-bottom: 100px;
@@ -469,6 +362,8 @@
   color: #000000;
 }
 
+/* main news start */
+
 .main-news-content{
   width: 393px;
   margin-bottom: 10px;
@@ -527,7 +422,7 @@
   height: 331px;
 }
 
-/* site footer */
+/* site footer start*/
 
 .site-footer{
   background-color: #7297EF;
