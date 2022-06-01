@@ -204,6 +204,7 @@ a{
   justify-content: space-between;
   align-items: center;
   margin-top:30px;
+  margin-bottom: 0;
   padding-left: 0;
   padding-bottom: 20px;
   border-bottom:  1px solid #D1D1D1;
@@ -617,6 +618,125 @@ a{
   justify-content: space-between;
   list-style: none;
 }
+
+/* contact page start */
+
+.write{
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.write-title{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.write-box{
+  display: flex;
+}
+
+.justify-input{
+  width: 343px;
+}
+
+.general-input{
+  margin-bottom: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+}
+
+.general-input::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.name-input{
+  margin-right: 10px;
+}
+
+.email-input{
+  width: 696px;
+}
+
+.text-input{
+  width: 696px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  resize: none;
+}
+
+.button-box{
+  width: 696px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.write-button{
+  padding: 17px 30px;
+  background-color: #7297EF;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.write-list{
+  width: 493px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  list-style: none;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+
+.write-item{
+  padding-bottom: 20px;
+  margin-bottom: 20px;  
+}
+
+.item-border{
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.write-heading{
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.write-link{
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.write-item:nth-child(3){
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
 
 
 
