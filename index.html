@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Namanganlik-24</title>
 
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <!-- <link rel="stylesheet" href="./css/main.css"> -->
 </head>
 <body>
 
 
     <!-- site header start -->
-  <header>
+    <header>
 
     <div class="header-top">
       <div class="container">
@@ -48,9 +50,9 @@
 
           <div class="header-top-end">
 
-            <div class="search-box">
-              Поиск
-            </div>
+            <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                <input class="search-input" type="search" name="search" aria-label="search" placeholder="Поиск" required>
+            </form>
 
             <span class="site-languages">
 
@@ -82,11 +84,11 @@
           <ul class="nav-list">
             <li class="nav-item">
               <a href="./index.html" class="nav-link">Главное</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Интересное</a></li>
+              <li class="nav-item"><a href="./interesting.html" class="nav-link">Интересное</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Экономика</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Политика</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Общество</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Технологии</a></li>
+              <li class="nav-item"><a href="article.html" class="nav-link">Технологии</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Спорт</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Культура</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Происшествия</a></li>
@@ -97,7 +99,7 @@
       </div>
 
     </header>
-    <!-- site header header-top-end -->
+    <!-- site header end -->
 
     <!-- site main start -->
     <main>
@@ -107,7 +109,7 @@
                 <a class="aside-link" href="https://shopme.uz/" target="blank">
                     <img src="images/shopme-banner.jpg" 
                     width="1200" height="128" 
-                    srcset="images/shopme-banner.jpg 1x, images/shopme-banner@2x.jpg 2x"
+                    srcset="./images/shopme-banner.jpg 1x, ./images/shopme-banner@2x.jpg 2x"
                     alt="shopme site advertising banner">
                 </a>
             </aside>
@@ -119,11 +121,12 @@
                     <li class="hero-item item-top">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title">
+                                <h3 class="hero-title">
+                                    <a href="#" class="hero-link">
                                         Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+                                
                                 <p class="hero-text">
                                     Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...
                                 </p>
@@ -146,11 +149,12 @@
                     <li class="hero-item item-top">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title">
+                                <h3 class="hero-title">
+                                    <a href="#" class="hero-link">
                                         Ученые доказали экспериментальным путем пользу покровных культур
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+                                
                                 <p class="hero-text">
                                     Новое исследование ученых университета Иллинойса объединяет полевые данные... 
                                 </p>
@@ -172,11 +176,12 @@
                     <li class="hero-item item-top">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title">
+                                <h3 class="hero-title">
+                                    <a href="#" class="hero-link">
                                         Baidu запустила публичный <br> сервис роботакси Apollo Go в Шанхае
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+                                
                                 <p class="hero-text">
                                     Автопарк Baidu состоит из модифицированных электромобилей EV... 
                                 </p>
@@ -198,11 +203,12 @@
                     <li class="hero-item">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title">
+                                <h3 class="hero-title">
+                                    <a href="#" class="hero-link">
                                         Стали известны ёмкости аккумуляторов всех моделей iPhone 13
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+
                                 <p class="hero-text">
                                     Во время презентации iPhone 13 Apple придала большое значения...
                                 </p>
@@ -224,11 +230,12 @@
                     <li class="hero-item">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title">
+                                <h3 class="hero-title">
+                                    <a href="#" class="hero-link">
                                         Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+                                
                                 <p class="hero-text">
                                     Во время презентации iPhone 13 Apple придала большое значение...
                                 </p>
@@ -250,11 +257,12 @@
                     <li class="hero-item">
                         <div class="item-box">
                             <div class="hero-item-texts">
-                                <a href="#" class="hero-link">
-                                    <h3 class="hero-title error-title">
+                                <h3 class="hero-title error-title">
+                                    <a href="#" class="hero-link">
                                         Китайская марка JAC повысила цены на лифтбек и пикап в <br> России
-                                    </h3>
-                                </a>
+                                    </a>
+                                </h3>
+                                
                                 <p class="hero-text">
                                     Две модели китайского бренда JAC из пяти, представленных на российском...
                                 </p>
@@ -306,11 +314,12 @@
                                 alt="a plane flying in the bright sky">
                 
                                 <div class="world-info-box">
-                                    <a class="world-link" href="#">
-                                        <h3 class="world-info-title">
+                                    <h3 class="world-info-title">
+                                        <a class="world-link" href="#">
                                             Китайский Чунцин запустил чартерный рейс для студентов до Британии
-                                        </h3>
-                                    </a>
+                                        </a>
+                                    </h3>
+                                    
                                     
                                     <p class="world-info-text">
                                         Чартерный рейс с 244 китайскими студентами вылетел из 
@@ -320,7 +329,7 @@
                 
                                     <div class="logo-box">
                                         <p class="logo-desc krasnaya-vesna">
-                                            ИА Красная Весна <time datetime="2022-05-24 12:25">12:25</time> 
+                                            ИА Красная Весна <time class="logo-time" datetime="2022-05-24 12:25">12:25</time> 
                                         </p>
                                     </div>
                                 </div>
@@ -333,11 +342,12 @@
                                 alt="A German woman named Merkel is standing in front of a black car">
                 
                                 <div class="world-info-box">
-                                    <a class="world-link" href="#">
-                                        <h3 class="world-info-title">
+                                    <h3 class="world-info-title">
+                                        <a class="world-link" href="#">
                                             В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель
-                                        </h3>
-                                    </a>
+                                        </a>
+                                    </h3>
+                                    
                                     
                                     <p class="world-info-text">
                                         БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых 
@@ -346,7 +356,7 @@
                 
                                     <div class="logo-box">
                                         <p class="logo-desc tacc">
-                                            ТАСС  <time datetime="2022-05-24 11:35">11:35</time> 
+                                            ТАСС  <time class="logo-time" datetime="2022-05-24 11:35">11:35</time> 
                                         </p>
                                     </div>
                                 </div>
@@ -359,11 +369,12 @@
                                 alt="crowded streets of china">
                 
                                 <div class="world-info-box">
-                                    <a class="world-link" href="#">
-                                        <h3 class="world-info-title">
+                                    <h3 class="world-info-title">
+                                        <a class="world-link" href="#">
                                             Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас
-                                        </h3>
-                                    </a>
+                                        </a>
+                                    </h3>
+                                    
                                     
                                     <p class="world-info-text">
                                         За последние месяцы инвесторы в китайский рынок пережили настоящее 
@@ -372,7 +383,7 @@
                 
                                     <div class="logo-box">
                                         <p class="logo-desc rbk">
-                                            РБК Инвестиции  <time datetime="2022-05-24 09:35">09:35</time> 
+                                            РБК Инвестиции  <time class="logo-time" datetime="2022-05-24 09:35">09:35</time> 
                                         </p>
                                     </div>
                                 </div>
@@ -385,12 +396,13 @@
                                 alt="the Chinese flag flutters in front of tall buildings">
                 
                                 <div class="world-info-box">
-                                    <a class="world-link" href="#">
-                                        <h3 class="world-info-title">
+                                    <h3 class="world-info-title">
+                                        <a class="world-link" href="#">
                                             Китай раскритиковал заключенный Австралией, 
                                             США и Великобританией антикитайский союз AUKUS
-                                        </h3>
-                                    </a>
+                                        </a>
+                                    </h3>
+                                    
                                     
                                     <p class="world-info-text">
                                         Не только Франция, которая лишилась многомиллиардного 
@@ -400,7 +412,7 @@
                 
                                     <div class="logo-box">
                                         <p class="logo-desc solenka">
-                                            Solenka.info  <time datetime="2022-05-24 19:43">19:43</time> 
+                                            Solenka.info  <time class="logo-time" datetime="2022-05-24 19:43">19:43</time> 
                                         </p>
                                     </div>
                                 </div>
@@ -423,44 +435,48 @@
     
                             <ul class="main-list">
                                 <li class="main-item item-border">
-                                    <a class="main-link" href="#" >
-                                        <h4 class="main-heading main-heading-first">
+                                    <h4 class="main-heading main-heading-first">
+                                        <a class="main-link" href="#" >
                                             В Фергане создадут узбекско-пакистанский университет
-                                        </h4>
-                                    </a>
+                                        </a>
+                                    </h4>
+                                    
                                     <p class="main-text">
                                         Sputnik Узбекистан <time datetime="20220-05-24 14:09">14:09</time>
                                     </p>
                                 </li>
                                 
                                 <li class="main-item item-border">
-                                    <a class="main-link" href="#" >
-                                        <h4 class="main-heading">
+                                    <h4 class="main-heading">
+                                        <a class="main-link" href="#" >
                                             Узбекистан утвердил соглашение о содействии занятости в странах СНГ
-                                        </h4>
-                                    </a>
+                                        </a>
+                                    </h4>
+                                   
                                     <p class="main-text">
                                         ИА Красная Весна  <time datetime="20220-05-24 10:19">10:19</time>
                                     </p>
                                 </li>
                 
                                 <li class="main-item item-border">
-                                    <a class="main-link" href="#" >
-                                        <h4 class="main-heading">
+                                    <h4 class="main-heading">
+                                        <a class="main-link" href="#" >
                                             В Узбекистане увеличиваются очереди за автомобилями UzAuto
-                                        </h4>
-                                    </a>
+                                        </a>
+                                    </h4>
+                                    
                                     <p class="main-text">
                                         Северная газета (Армянск) <time datetime="20220-05-24 13:50">13:50</time>
                                     </p>
                                 </li>
                                 
                                 <li class="main-item">
-                                    <a class="main-link" href="#" >
-                                        <h4 class="main-heading">
+                                    <h4 class="main-heading">
+                                        <a class="main-link" href="#" >
                                             Минтуризма опровергло приостановку выплат за шаги
-                                        </h4>
-                                    </a>
+                                        </a>
+                                    </h4>
+                                    
                                     <p class="main-text main-text-last">
                                         Sputnik Узбекистан <time datetime="20220-05-24 14:32">14:32</time>
                                     </p>
@@ -470,7 +486,7 @@
                         </div>
                         
 
-                        <a class="olmos-link" href="">
+                        <a class="olmos-link" href="https://olmosresidence.uz/" target="blank">
                             <img class="olmos-img" src="images/olmos-ads-banner.jpg" 
                             width="393" height="338"
                             srcset="./images/olmos-ads-banner.jpg 1x, ./images/olmos-ads-banner.jpg 2x"

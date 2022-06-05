@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Write to us</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
 </head>
 <body>
-    
+        
      <!-- site header start -->
   <header>
 
@@ -47,9 +49,9 @@
 
           <div class="header-top-end">
 
-            <div class="search-box">
-              Поиск
-            </div>
+            <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                <input class="search-input" type="search" name="search" aria-label="search" placeholder="Поиск" required>
+            </form>
 
             <span class="site-languages">
 
@@ -108,7 +110,7 @@
                 <div class="write-box">
 
                     <div class="input-box">
-                        <form action="https://echo.htmlacademy.ru/courses" method="post">
+                        <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
                             <div>
                                 <label>
                                     <input class="general-input justify-input name-input" type="text" name="your name" placeholder="Имя" required>
@@ -127,7 +129,7 @@
 
                             <div>
                                 <label for="text">
-                                    <textarea class="general-input text-input" name="your text" id="text" cols="30" rows="9" placeholder="Текст">
+                                    <textarea class="general-input text-input" name="your text" id="text" cols="30" rows="10" placeholder="Текст">
                                     </textarea>
                                 </label>
                             </div>

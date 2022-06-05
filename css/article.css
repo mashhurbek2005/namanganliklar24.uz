@@ -1,0 +1,109 @@
+/* intro section */
+
+.intro{
+    padding-top: 50px;  
+}
+
+.intro-box{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro-info-box{
+  width: 797px;
+  margin-right: 10px;
+}
+
+.intro-logo-box{
+  margin-bottom: 30px;
+}
+
+.fbm:before{
+    background-image: url("../images/fbm-icon.png");
+}
+
+.intro-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.intro-img{
+  margin-bottom: 25px;
+}
+
+.intro-text{
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.intro-last-text{
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+/* interest section begin */
+
+.interest{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.interest-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.interest-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.interest-item{
+    width: 393px;
+    margin-right: 10px;
+    padding: 20px 18px 15px 17px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+}
+
+.interest-item:nth-child(3){
+    margin-right: 0;
+}
+
+.interest-heading{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.interest-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.interest-text{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+}
+
+
